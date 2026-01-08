@@ -18,7 +18,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section id="how-it-works" className="py-20 bg-gray-50 overflow-hidden">
+    <section id="how-it-works" className="py-20 overflow-hidden md:min-h-screen md:flex md:items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase">How It Works</h2>

@@ -51,7 +51,7 @@ export default function DownloadModal({ isOpen, onClose }) {
           
           {/* Direct APK (Primary) */}
           <a 
-            href="https://drive.google.com/file/d/1ahkDOq0IgDUSovdtTzL8h77N7GicOFzX/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1d-L2RZWOBctdKRU68lYQtUAYf8bX2JBA/view?usp=sharing" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative flex w-full items-center justify-between rounded-xl border border-transparent bg-primary px-4 py-4 text-white shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all"

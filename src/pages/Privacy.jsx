@@ -82,7 +82,7 @@ export default function Privacy() {
           <h2>9. Contact Us</h2>
           <p>If you have any questions about this Privacy Policy, please contact us at:</p>
           <ul>
-            <li><strong>Email:</strong> support@soulmatelabs.com</li>
+            <li><strong>Email:</strong> soulmatelabs@gmail.com</li>
           </ul>
         </div>
       </div>

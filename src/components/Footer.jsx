@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import AnchorLink from './AnchorLink';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -13,20 +14,21 @@ export default function Footer() {
               <span className="text-lg font-bold text-gray-700">Couplair</span>
             </Link>
             <p className="text-sm text-gray-500 mb-4 max-w-xs">
-              The simplest way to share your availability with your partner. Connect. Sync. Simply Be.
+              The simplest way to share your availability with your partner. Connect. Sync. Enjoy.
             </p>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Product</h3>
             <ul className="space-y-3">
-              <li><Link to="/#features" className="text-sm text-gray-500 hover:text-primary">Features</Link></li>
-              <li><Link to="/#how-it-works" className="text-sm text-gray-500 hover:text-primary">How it Works</Link></li>
-              <li><Link to="/#download" className="text-sm text-gray-500 hover:text-primary">Download</Link></li>
+              <li><AnchorLink to="/#features" className="text-sm text-gray-500 hover:text-primary">Features</AnchorLink></li>
+              <li><AnchorLink to="/#how-it-works" className="text-sm text-gray-500 hover:text-primary">How it Works</AnchorLink></li>
+              <li><AnchorLink to="/#download" className="text-sm text-gray-500 hover:text-primary">Download</AnchorLink></li>
             </ul>
           </div>
           <div>
              <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Legal</h3>
             <ul className="space-y-3">
+              <li><Link to="/about" className="text-sm text-gray-500 hover:text-primary">About Us</Link></li>
               <li><Link to="/privacy" className="text-sm text-gray-500 hover:text-primary">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-sm text-gray-500 hover:text-primary">Terms of Service</Link></li>
             </ul>
@@ -34,12 +36,12 @@ export default function Footer() {
            <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Contact</h3>
             <ul className="space-y-3">
-              <li><a href="mailto:support@soulmatelabs.com" className="text-sm text-gray-500 hover:text-primary">support@soulmatelabs.com</a></li>
+              <li><a href="mailto:support@soulmatelabs.com" className="text-sm text-gray-500 hover:text-primary">soulmatelabs@gmail.com</a></li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-gray-400">&copy; {currentYear} Soulmate Labs. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; {currentYear} SoulMate Labs. All rights reserved.</p>
         </div>
       </div>
     </footer>

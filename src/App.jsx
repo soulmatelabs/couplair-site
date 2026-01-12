@@ -6,6 +6,7 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import FeedbackButton from './components/FeedbackButton';
 
 // ScrollToTop component to ensure page starts at top on navigation
 function ScrollToTop() {
@@ -33,6 +34,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <FeedbackButton />
       </div>
     </Router>
   );

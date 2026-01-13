@@ -35,7 +35,7 @@ export default function Terms() {
 
           <h2>5. Intellectual Property</h2>
           <p>
-            The App and its original content (excluding user-generated content like nicknames), features, and functionality are and will remain the exclusive property of <strong>Soulmate Labs</strong> and its licensors. The App is protected by copyright, trademark, and other laws.
+            The App and its original content (excluding user-generated content like nicknames), features, and functionality are and will remain the exclusive property of <strong>SoulMate Labs</strong> and its licensors. The App is protected by copyright, trademark, and other laws.
           </p>
 
           <h2>6. Disclaimer of Warranties ("AS IS")</h2>
@@ -59,17 +59,28 @@ export default function Terms() {
             OUR TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF OR RELATING TO THESE TERMS OR THE USE OF THE APP SHALL NOT EXCEED THE AMOUNT PAID BY YOU, IF ANY, FOR USING THE APP.
           </p>
 
-          <h2>8. Changes to Terms</h2>
+          <h2>8. Disclaimer Regarding Professional Advice</h2>
+          <p>
+            Couplair is designed as a communication tool to assist partners in managing their availability. The information and features provided by the App are for general informational purposes only and do not constitute professional relationship therapy, psychological, medical, or any other form of professional advice.
+          </p>
+          <p className="uppercase">
+            SOULMATE LABS AND ITS DEVELOPERS ARE NOT LICENSED THERAPISTS, COUNSELORS, OR HEALTHCARE PROFESSIONALS. THE APP IS NOT A SUBSTITUTE FOR PROFESSIONAL DIAGNOSIS, TREATMENT, OR ADVICE FROM A QUALIFIED EXPERT. ALWAYS SEEK THE ADVICE OF A QUALIFIED PROFESSIONAL REGARDING ANY QUESTIONS YOU MAY HAVE ABOUT YOUR RELATIONSHIP OR PERSONAL WELL-BEING.
+          </p>
+          <p className="uppercase">
+            BY USING THE APP, YOU ACKNOWLEDGE AND AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR YOUR RELATIONSHIP DECISIONS AND INTERACTIONS. YOU ASSUME ALL RISKS ASSOCIATED WITH THE USE OF THE APP, INCLUDING BUT NOT LIMITED TO MISINTERPRETATION OF STATUSES, COMMUNICATION BREAKDOWNS, OR ANY EMOTIONAL OR RELATIONAL OUTCOMES.
+          </p>
+
+          <h2>9. Changes to Terms</h2>
           <p>
             We reserve the right to modify or replace these Terms at any time. We will provide notice of any significant changes. By continuing to access or use the App after those revisions become effective, you agree to be bound by the revised terms.
           </p>
 
-          <h2>9. Governing Law</h2>
+          <h2>10. Governing Law</h2>
           <p>
             These Terms shall be governed and construed in accordance with the laws of the jurisdiction in which the Developer resides, without regard to its conflict of law provisions.
           </p>
 
-          <h2>10. Contact Us</h2>
+          <h2>11. Contact Us</h2>
           <p>If you have any questions about these Terms, please contact us at:</p>
           <ul>
             <li><strong>Email:</strong> soulmatelabs@gmail.com</li>

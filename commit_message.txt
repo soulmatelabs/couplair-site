@@ -1,0 +1,18 @@
+feat: add installation guides and support section
+
+Added dedicated installation guide pages for iOS and Android, enhanced the UI with animations, and restructured the footer for better support discoverability.
+
+What:
+- Introduced `iOSInstallGuide` and `AndroidInstallGuide` pages and components.
+- Integrated `framer-motion` for modal and footer animations.
+- Restructured the site footer to include a new "Support" section.
+- Added a "Professional Advice" disclaimer to the Terms of Service.
+
+How:
+- Created multi-phase installation components for both platforms.
+- Updated `App.jsx` with new routes and `package.json` with motion dependencies.
+- Refactored `DownloadModal` to include animated transitions and guide links.
+- Corrected file casing for iOS-related assets to ensure cross-platform compatibility.
+
+Why:
+To provide a clear path for beta testers to install the application and to centralize support resources for improved user onboarding and legal clarity.

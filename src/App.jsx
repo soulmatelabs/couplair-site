@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import IOSInstallGuide from './pages/iOSInstallGuide';
+import AndroidInstallGuide from './pages/AndroidInstallGuide';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import FeedbackButton from './components/FeedbackButton';
@@ -31,6 +33,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/ios-install-guide" element={<IOSInstallGuide />} />
+            <Route path="/android-install-guide" element={<AndroidInstallGuide />} />
           </Routes>
         </main>
         <Footer />

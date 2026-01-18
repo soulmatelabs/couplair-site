@@ -13,8 +13,8 @@ export default function Why() {
               We’ve been told that the secret to a great relationship is "just talk about it." But in the real world, constant verbal initiation comes with a hidden cost we call the <span className="text-gray-900 font-semibold italic">Initiation Tax.</span>
             </p>
             
-            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-start text-left">
-              <div className="space-y-6">
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 text-left">
+              <div className="flex flex-col space-y-6">
                 <div className="space-y-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900">The Burden of the "Ask"</h3>
                   <p className="text-base sm:text-lg">
@@ -22,15 +22,15 @@ export default function Why() {
                   </p>
                 </div>
                 
-                <div className="bg-white/50 p-6 rounded-2xl shadow-sm ring-1 ring-black/5">
-                  <ul className="space-y-3">
-                    <li className="flex gap-3">
-                      <span className="text-primary font-bold">•</span>
-                      <span className="text-base sm:text-lg"><span className="text-gray-900 font-semibold">The Pursuer</span> feels vulnerable and tired of "asking."</span>
+                <div className="bg-white/50 p-8 rounded-2xl shadow-sm ring-1 ring-black/5 flex-grow flex flex-col justify-center">
+                  <ul className="space-y-6 flex-grow flex flex-col justify-around">
+                    <li className="flex gap-4">
+                      <span className="text-primary font-bold text-xl">•</span>
+                      <span className="text-lg sm:text-xl leading-relaxed"><span className="text-gray-900 font-semibold">The Pursuer</span> feels vulnerable and tired of "asking."</span>
                     </li>
-                    <li className="flex gap-3">
-                      <span className="text-primary font-bold">•</span>
-                      <span className="text-base sm:text-lg"><span className="text-gray-900 font-semibold">The Gatekeeper</span> feels guilty for not being "ready" at that exact moment.</span>
+                    <li className="flex gap-4">
+                      <span className="text-primary font-bold text-xl">•</span>
+                      <span className="text-lg sm:text-xl leading-relaxed"><span className="text-gray-900 font-semibold">The Gatekeeper</span> feels guilty for not being "ready" at that exact moment.</span>
                     </li>
                   </ul>
                 </div>
@@ -44,7 +44,7 @@ export default function Why() {
                     Research shows that most couples have high levels of mutual desire, but they suffer from <span className="text-primary font-bold">low temporal alignment.</span> You are both willing to give 100%, but your internal "clocks" are rarely striking the same hour.
                   </p>
                   <p className="text-[10px] sm:text-xs text-gray-400 mt-auto leading-tight italic border-t border-gray-200 pt-4">
-                    * Placeholder: Citation for research claim regarding temporal alignment and desire in long-term partnerships.
+                    * Research on long-term couples shows distress often comes from partners’ desire peaking at different times, not from low desire itself (<a href="https://natalieorosen.com/wp-content/uploads/2021/05/Kim-Muise-et-al-2020-SPPS.pdf" target="_blank" rel="nofollow noreferrer" className="hover:text-gray-600 hover:underline transition-colors">Kim et al., 2020; Mark et al., 2020</a>).
                   </p>
                 </div>
               </div>

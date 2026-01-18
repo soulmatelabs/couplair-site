@@ -1,18 +1,11 @@
-feat: add installation guides and support section
+feat: improve interactions and optimize assets
 
-Added dedicated installation guide pages for iOS and Android, enhanced the UI with animations, and restructured the footer for better support discoverability.
+Refactored site navigation and UI components for better performance and user experience.
 
-What:
-- Introduced `iOSInstallGuide` and `AndroidInstallGuide` pages and components.
-- Integrated `framer-motion` for modal and footer animations.
-- Restructured the site footer to include a new "Support" section.
-- Added a "Professional Advice" disclaimer to the Terms of Service.
-
-How:
-- Created multi-phase installation components for both platforms.
-- Updated `App.jsx` with new routes and `package.json` with motion dependencies.
-- Refactored `DownloadModal` to include animated transitions and guide links.
-- Corrected file casing for iOS-related assets to ensure cross-platform compatibility.
-
-Why:
-To provide a clear path for beta testers to install the application and to centralize support resources for improved user onboarding and legal clarity.
+- Navigation: Updated the "Get the App" button in the header to open the DownloadModal directly using local state instead of a redirect.
+- Assets: Optimized logo files by introducing small/medium variants and updated favicon/header references to reduce initial load weight.
+- SEO/Social: Added Open Graph and Twitter Card meta tags to index.html with the production URL (https://soulmatelabs.github.io/couplair-site/).
+- UI: Refactored the "Why" section grid to ensure equal-height columns on desktop and enhanced the role card's layout and font size.
+- Content: Replaced placeholder citations in the "Why" section with verified research links.
+- Maintenance: Upgraded Vite to v7 and opted into React Router v7 future flags for forward compatibility.
+- Fix: Added 'pointer-events-auto' to the DownloadModal to ensure interactivity when triggered from the fixed header.

@@ -122,3 +122,7 @@ Thumbs.db
 
 # Temporal files
 SectionCopy.md
+
+# Local documentation and artifacts
+_docs/
+commit_message.txt

@@ -1,7 +1,0 @@
-chore: configure deployment paths and update legal docs
-
-Configure Vite base path to support GitHub Pages deployment while maintaining local development compatibility. Update image assets in components to use dynamic base URL.
-
-Added email aliases for inbox organization and easy spam filtering.
-
-Refine Privacy Policy and Terms of Service to include sections on sideloading, liability limits, and age requirements. Move installation context documentation.

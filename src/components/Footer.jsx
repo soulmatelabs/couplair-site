@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src="/assets/images/logo-medium.png" alt="Couplair Logo" className="h-6 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all" />
+              <img src={`${import.meta.env.BASE_URL}assets/images/logo.png`} alt="Couplair Logo" className="h-6 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all" />
               <span className="text-lg font-bold text-gray-700">Couplair</span>
             </Link>
             <p className="text-sm text-gray-500 mb-4 max-w-xs">
@@ -37,7 +37,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><Link to="/ios-install-guide" className="text-sm text-gray-500 hover:text-primary">iOS Install Guide</Link></li>
               <li><Link to="/android-install-guide" className="text-sm text-gray-500 hover:text-primary">Android Install Guide</Link></li>
-              <li><a href="mailto:soulmatelabs@gmail.com" className="text-sm text-gray-500 hover:text-primary">Contact Us</a></li>
+              <li><a href="mailto:soulmatelabs+couplair@gmail.com" className="text-sm text-gray-500 hover:text-primary">Contact Us</a></li>
             </ul>
           </div>
           <div>

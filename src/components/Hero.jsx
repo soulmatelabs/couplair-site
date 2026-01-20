@@ -19,12 +19,12 @@ export default function Hero() {
       {/* Images Layer - Desktop (Static) */}
       <div className="hidden sm:flex relative z-0 justify-center gap-6 sm:gap-12 transform translate-y-8 sm:translate-y-12 scale-90 sm:scale-100 pointer-events-none select-none">
         <img 
-          src="/assets/images/Unavailable-Unavailable-portrait.webp" 
+          src={`${import.meta.env.BASE_URL}assets/images/Unavailable-Unavailable-portrait.webp`} 
           alt="App Screenshot Unavailable" 
           className="w-[140px] xs:w-[160px] sm:w-[240px] lg:w-[280px] h-auto rotate-[-6deg]"
         />
         <img 
-          src="/assets/images/Available-Available-portrait.webp" 
+          src={`${import.meta.env.BASE_URL}assets/images/Available-Available-portrait.webp`} 
           alt="App Screenshot Available" 
           className="w-[140px] xs:w-[160px] sm:w-[240px] lg:w-[280px] h-auto rotate-[6deg]"
         />
@@ -33,12 +33,12 @@ export default function Hero() {
       {/* Images Layer - Mobile (Carousel) */}
       <div className="sm:hidden relative z-0 flex justify-center items-center transform translate-y-12 scale-100 pointer-events-none select-none h-[400px] w-full">
          <img 
-          src="/assets/images/Unavailable-Unavailable-portrait.webp" 
+          src={`${import.meta.env.BASE_URL}assets/images/Unavailable-Unavailable-portrait.webp`} 
           alt="App Screenshot Unavailable" 
           className={`absolute w-[200px] h-auto transition-opacity duration-1000 ease-in-out ${activeImage === 0 ? 'opacity-100' : 'opacity-0'}`}
         />
         <img 
-          src="/assets/images/Available-Available-portrait.webp" 
+          src={`${import.meta.env.BASE_URL}assets/images/Available-Available-portrait.webp`} 
           alt="App Screenshot Available" 
           className={`absolute w-[200px] h-auto transition-opacity duration-1000 ease-in-out ${activeImage === 1 ? 'opacity-100' : 'opacity-0'}`}
         />

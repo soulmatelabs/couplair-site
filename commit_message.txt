@@ -1,11 +1,7 @@
-feat: improve interactions and optimize assets
+chore: configure deployment paths and update legal docs
 
-Refactored site navigation and UI components for better performance and user experience.
+Configure Vite base path to support GitHub Pages deployment while maintaining local development compatibility. Update image assets in components to use dynamic base URL.
 
-- Navigation: Updated the "Get the App" button in the header to open the DownloadModal directly using local state instead of a redirect.
-- Assets: Optimized logo files by introducing small/medium variants and updated favicon/header references to reduce initial load weight.
-- SEO/Social: Added Open Graph and Twitter Card meta tags to index.html with the production URL (https://soulmatelabs.github.io/couplair-site/).
-- UI: Refactored the "Why" section grid to ensure equal-height columns on desktop and enhanced the role card's layout and font size.
-- Content: Replaced placeholder citations in the "Why" section with verified research links.
-- Maintenance: Upgraded Vite to v7 and opted into React Router v7 future flags for forward compatibility.
-- Fix: Added 'pointer-events-auto' to the DownloadModal to ensure interactivity when triggered from the fixed header.
+Added email aliases for inbox organization and easy spam filtering.
+
+Refine Privacy Policy and Terms of Service to include sections on sideloading, liability limits, and age requirements. Move installation context documentation.

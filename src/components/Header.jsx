@@ -12,7 +12,7 @@ export default function Header() {
           {/* Logo Pill */}
           <div className="bg-white/70 backdrop-blur-xl shadow-lg rounded-full px-4 py-2 pointer-events-auto ring-1 ring-white/50">
             <Link to="/" className="flex items-center gap-2">
-              <img src="/assets/images/logo-medium.png" alt="Couplair Logo" className="h-8 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}assets/images/logo.png`} alt="Couplair Logo" className="h-8 w-auto" />
               <span className="text-xl font-bold text-gray-900 tracking-tight">Couplair</span>
             </Link>
           </div>

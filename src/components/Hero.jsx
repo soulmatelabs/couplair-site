@@ -14,7 +14,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden min-h-screen flex flex-col items-center justify-start pt-16 sm:pt-20">
+    <section className="relative overflow-hidden min-h-fill-available flex flex-col items-center justify-start pt-16 sm:pt-20">
       
       {/* Images Layer - Desktop (Static) */}
       <div className="hidden sm:flex relative z-0 justify-center gap-6 sm:gap-12 transform translate-y-8 sm:translate-y-12 scale-90 sm:scale-100 pointer-events-none select-none">

@@ -1,6 +1,6 @@
 export default function PainPoint() {
   return (
-    <section id="pain-point" className="py-20 md:py-32 relative overflow-hidden">
+    <section id="pain-point" className="py-20 md:py-32 relative overflow-hidden min-h-fill-available flex items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">

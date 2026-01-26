@@ -35,7 +35,7 @@ export default function Features() {
   ];
 
   return (
-    <section id="features" className="py-20 md:min-h-screen md:flex md:items-center">
+    <section id="features" className="py-20 min-h-fill-available flex items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase">Features</h2>

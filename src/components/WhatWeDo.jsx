@@ -5,7 +5,7 @@ export default function WhatWeDo() {
   const [isDownloadModalOpen, setIsDownloadModalOpen] = useState(false);
 
   return (
-    <section id="what-we-do" className="py-20 md:py-32 relative overflow-hidden">
+    <section id="what-we-do" className="py-20 md:py-32 relative overflow-hidden min-h-fill-available flex items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="space-y-12 text-lg sm:text-xl text-gray-600 leading-relaxed font-medium">

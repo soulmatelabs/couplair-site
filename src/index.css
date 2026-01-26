@@ -6,3 +6,11 @@ body {
   @apply font-sans antialiased text-gray-900 bg-gray-50;
   overflow-x: hidden;
 }
+
+@layer utilities {
+  .min-h-fill-available {
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: -webkit-fill-available;
+  }
+}

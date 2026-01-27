@@ -14,10 +14,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden min-h-fill-available flex flex-col items-center justify-start pt-16 sm:pt-20">
+    <section className="relative overflow-hidden min-h-fill-available flex flex-col items-center justify-start pt-12 sm:pt-16">
       
       {/* Images Layer - Desktop (Static) */}
-      <div className="hidden sm:flex relative z-0 justify-center gap-6 sm:gap-12 transform translate-y-8 sm:translate-y-12 scale-90 sm:scale-100 pointer-events-none select-none">
+      <div className="hidden sm:flex relative z-0 justify-center gap-6 sm:gap-12 transform translate-y-4 sm:translate-y-8 scale-90 sm:scale-100 pointer-events-none select-none">
         <img 
           src={`${import.meta.env.BASE_URL}assets/images/Unavailable-Unavailable-portrait.webp`} 
           alt="App Screenshot Unavailable" 
@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
 
       {/* Images Layer - Mobile (Carousel) */}
-      <div className="sm:hidden relative z-0 flex justify-center items-center transform translate-y-12 scale-100 pointer-events-none select-none h-[400px] w-full">
+      <div className="sm:hidden relative z-0 flex justify-center items-center transform translate-y-8 scale-100 pointer-events-none select-none h-[350px] w-full">
          <img 
           src={`${import.meta.env.BASE_URL}assets/images/Unavailable-Unavailable-portrait.webp`} 
           alt="App Screenshot Unavailable" 
@@ -44,7 +44,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 -mt-16 sm:-mt-24 pb-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 -mt-24 sm:-mt-40 pb-20">
         <div className="max-w-4xl mx-auto">
           {/* Glassmorphism Card */}
           <div className="bg-white/70 backdrop-blur-2xl rounded-[2rem] sm:rounded-[3rem] p-8 sm:p-14 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] ring-1 ring-white/50 text-center transform transition-all hover:scale-[1.01] duration-500">
@@ -54,7 +54,7 @@ export default function Hero() {
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6 drop-shadow-sm">
               Connect. Sync. <span className="text-primary">Enjoy.</span>
             </h2>
-            <p className="text-lg sm:text-xl text-gray-700 mb-3 leading-relaxed max-w-2xl mx-auto font-medium">
+            <p className="text-lg sm:text-xl text-gray-900 mb-3 leading-relaxed max-w-2xl mx-auto font-semibold">
               The simplest way to sync yours and your partner's needs.
             </p>
             <p className="text-lg sm:text-xl text-gray-700 mb-10 leading-relaxed max-w-2xl mx-auto font-medium">

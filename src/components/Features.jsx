@@ -25,8 +25,8 @@ export default function Features() {
       color: "bg-primary"
     },
     {
-      title: "Instant Notifications (Coming Soon)",
-      description: "Get a gentle nudge when your partner becomes available, so you never miss a moment to connect.",
+      title: "Personal Notifications",
+      description: "Get a gentle nudge when your status expires, so you have complete control over when to connect.",
       icon: (
         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
       ),
@@ -40,7 +40,7 @@ export default function Features() {
         <div className="text-center mb-16">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase">Features</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need, nothing you don't
+            Built with couples • Backed by research • Private & secure
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
             Focus on your relationship, not the app. We keep it simple.

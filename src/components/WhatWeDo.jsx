@@ -10,9 +10,10 @@ export default function WhatWeDo() {
         <div className="max-w-3xl mx-auto text-center">
           <div className="space-y-12 text-lg sm:text-xl text-gray-600 leading-relaxed font-medium">
             <div className="space-y-6">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+              <h2 className="text-base text-primary font-semibold tracking-wide uppercase">What We Do</h2>
+              <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
                 A New Way to <span className="text-primary">Bridge the Gap</span>
-              </h2>
+              </h3>
               <p>
                 <span className="text-primary font-bold">Couplair</span> was born from the discovery that technology can act as a buffer. By moving the "initiation" into a digital, double-blind space, we remove the pressure of the immediate "No."
               </p>

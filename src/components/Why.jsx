@@ -3,10 +3,11 @@ export default function Why() {
     <section id="why" className="py-20 md:py-32 relative overflow-hidden min-h-fill-available flex items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight max-w-3xl mx-auto">
+          <h2 className="text-base text-primary font-semibold tracking-wide uppercase">The Science Behind It</h2>
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight max-w-3xl mx-auto">
             The Discovery: It’s Not a Lack of Love—<br className="hidden sm:block" />
             <span className="text-primary">It’s the "Initiation Tax"</span>
-          </h2>
+          </h3>
           
           <div className="space-y-12 text-lg sm:text-xl text-gray-600 leading-relaxed font-medium">
             <p className="max-w-3xl mx-auto">

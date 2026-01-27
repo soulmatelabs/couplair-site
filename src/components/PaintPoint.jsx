@@ -4,8 +4,8 @@ export default function PainPoint() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-            Are you living in parallel, <br className="hidden sm:block" />
-            <span className="text-primary">but not in sync?</span>
+            Living together but <br className="hidden sm:block" />
+            <span className="text-primary">not feeling together?</span>
           </h2>
           
           <div className="space-y-6 text-lg sm:text-xl text-gray-600 leading-relaxed font-medium">

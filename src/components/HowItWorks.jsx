@@ -3,12 +3,12 @@ export default function HowItWorks() {
     {
       number: "01",
       title: "Download & Sign Up",
-      description: "Get the app from your store. Start fresh or join anonymously. No complex onboarding."
+      description: "Download and install the app. Join anonymously or create an account. No complex onboarding."
     },
     {
       number: "02",
       title: "Pair Up",
-      description: "One partner generates a 6-digit code. The other enters it. Boom, you're connected securely."
+      description: "One shares their 6-digit code. The other enters it. Boom, you're connected securely."
     },
     {
       number: "03",
@@ -23,7 +23,7 @@ export default function HowItWorks() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase">How It Works</h2>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Three steps to better sync
+            Three steps to better sync with ZERO drama.
           </p>
         </div>
 

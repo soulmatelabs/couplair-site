@@ -1,6 +1,6 @@
 export default function Why() {
   return (
-    <section id="why" className="py-20 md:py-32 relative overflow-hidden min-h-fill-available flex items-center">
+    <section id="why" className="py-20 lg:py-0 relative overflow-hidden min-h-screen lg:snap-start flex items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase">The Science Behind It</h2>

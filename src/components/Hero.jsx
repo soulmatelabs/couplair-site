@@ -14,10 +14,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden min-h-fill-available flex flex-col items-center justify-start pt-12 sm:pt-16">
+    <section className="relative overflow-hidden min-h-screen lg:snap-start flex flex-col items-center justify-start lg:justify-center pt-12 sm:pt-16 lg:pt-32">
       
       {/* Images Layer - Desktop (Static) */}
-      <div className="hidden sm:flex relative z-0 justify-center gap-6 sm:gap-12 transform translate-y-4 sm:translate-y-8 scale-90 sm:scale-100 pointer-events-none select-none">
+      <div className="hidden sm:flex relative z-0 justify-center gap-6 sm:gap-12 transform translate-y-4 sm:translate-y-8 lg:translate-y-0 scale-90 sm:scale-100 pointer-events-none select-none lg:absolute lg:top-16 lg:w-full lg:z-0 xl:scale-100">
         <img 
           src={`${import.meta.env.BASE_URL}assets/images/Unavailable-Unavailable-portrait.webp`} 
           alt="App Screenshot Unavailable" 
@@ -44,7 +44,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 -mt-24 sm:-mt-40 pb-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 -mt-24 sm:-mt-40 lg:mt-28">
         <div className="max-w-4xl mx-auto">
           {/* Glassmorphism Card */}
           <div className="bg-white/70 backdrop-blur-2xl rounded-[2rem] sm:rounded-[3rem] p-8 sm:p-14 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] ring-1 ring-white/50 text-center transform transition-all hover:scale-[1.01] duration-500">
@@ -79,7 +79,7 @@ export default function Hero() {
       </div>
       
       {/* Decorative gradient blob */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[800px] -z-10 rounded-full bg-gradient-to-b from-primary/5 via-secondary/20 to-transparent blur-3xl opacity-60 pointer-events-none"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[800px] -z-20 rounded-full bg-gradient-to-b from-primary/5 via-secondary/20 to-transparent blur-3xl opacity-60 pointer-events-none"></div>
 
       <DownloadModal 
         isOpen={isDownloadModalOpen} 

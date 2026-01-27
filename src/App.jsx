@@ -21,25 +21,34 @@ function ScrollToTop() {
   return null;
 }
 
+function Layout() {
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
+  return (
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-primary/10 via-secondary/20 to-primary/30">
+      <Header />
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/ios-install-guide" element={<IOSInstallGuide />} />
+          <Route path="/android-install-guide" element={<AndroidInstallGuide />} />
+        </Routes>
+      </main>
+      {!isHome && <Footer />}
+      <FeedbackButton />
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen bg-gradient-to-b from-primary/10 via-secondary/20 to-primary/30">
-        <Header />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/privacy" element={<Privacy />} />
-            <Route path="/terms" element={<Terms />} />
-            <Route path="/ios-install-guide" element={<IOSInstallGuide />} />
-            <Route path="/android-install-guide" element={<AndroidInstallGuide />} />
-          </Routes>
-        </main>
-        <Footer />
-        <FeedbackButton />
-      </div>
+      <Layout />
     </Router>
   );
 }

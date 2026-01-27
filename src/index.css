@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  @apply lg:snap-y lg:snap-mandatory lg:scroll-smooth;
+}
+
 @layer utilities {
   .min-h-fill-available {
     min-height: 100vh;

@@ -26,6 +26,10 @@ export default function FinalCTA() {
           Get Early Access
         </button>
 
+        <p className="mt-6 text-sm font-bold text-gray-700 uppercase tracking-[0.2em]">
+          Free • Private • Secure
+        </p>
+
       </div>
 
       <DownloadModal 

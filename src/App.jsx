@@ -9,6 +9,7 @@ import AndroidInstallGuide from './pages/AndroidInstallGuide';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import FeedbackButton from './components/FeedbackButton';
+import SocialFAB from './components/SocialFAB';
 
 // ScrollToTop component to ensure page starts at top on navigation
 function ScrollToTop() {
@@ -40,6 +41,7 @@ function Layout() {
       </main>
       {!isHome && <Footer />}
       <FeedbackButton />
+      <SocialFAB />
     </div>
   );
 }

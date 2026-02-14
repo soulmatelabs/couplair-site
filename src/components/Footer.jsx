@@ -53,7 +53,7 @@ export default function Footer() {
           <p className="text-sm text-gray-400">&copy; {currentYear} SoulMate Labs. All rights reserved.</p>
           <div className="flex items-center gap-5">
             <a 
-              href="https://discord.gg/s54XcTEc" 
+              href="https://discord.gg/32mTvbJNFf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-[#5865F2] transition-colors p-2 hover:bg-gray-50 rounded-full"

@@ -3,116 +3,270 @@ export default function Terms() {
     <div className="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
       <div className="relative max-w-3xl mx-auto">
         <div className="text-center">
-          <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Terms of Service for Couplair</h1>
-          <p className="mt-4 text-lg text-gray-500">Last Updated: January 4, 2026</p>
+          <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            SoulMate Labs - Master Terms of Service
+          </h1>
+          <p className="mt-4 text-lg text-gray-500">
+            Last Updated: February 13, 2026
+          </p>
         </div>
-        
+
         <div className="mt-12 prose prose-pink prose-lg text-gray-700 mx-auto">
-          <h2>1. Acceptance of Terms</h2>
           <p>
-            By downloading, installing (via official stores, sideloading, or APK installation), or using <strong>Couplair</strong> (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the App.
+            These Master Terms of Service ("Terms") constitute a legally
+            binding agreement between you ("User" or "you") and{" "}
+            <strong>SoulMate Labs</strong> ("Company," "we," "us," or "our").
+            These Terms govern your access to and use of the SoulMate Labs
+            ecosystem, including the applications <strong>Couplair</strong>,{" "}
+            <strong>SoulSight</strong>, <strong>Up4it</strong>,{" "}
+            <strong>SoulMate</strong> (collectively, the "Apps"), our
+            websites, and any related services (collectively, the "Services").
           </p>
-
-          <h2>2. Age Requirement (Strict 18+)</h2>
+          <h3>1. Acceptance of Terms</h3>
           <p>
-            You must be at least 18 years of age (or the age of legal majority in your jurisdiction, if higher) to use this App. By using the App, you warrant and represent that you meet this age requirement. If we discover an account belongs to a minor, we will delete it immediately.
+            By downloading, installing (via official stores, sideloading, or
+            APK installation), or using any App within the SoulMate Labs
+            environment, you agree to be bound by these Terms. These Terms
+            apply across all Services provided by SoulMate Labs. If you do not
+            agree, you must immediately cease all use of the Services and
+            delete all SoulMate Labs Apps from your devices.
           </p>
-
-          <h2>3. Sideloading, Updates, and Security</h2>
+          <h3>2. Eligibility and Age Requirement (Strict 18+)</h3>
           <p>
-            <strong>Distribution Methods:</strong> You acknowledge that the App may be available via direct download (APK/Sideloading). You engage in sideloading entirely at your own risk.
-          </p>
-          <p>
-            <strong>No Auto-Updates:</strong> Sideloaded versions of the App do not receive automatic security updates. It is your sole responsibility to frequently check for and install newer versions. SoulMate Labs is not liable for data breaches, bugs, or instability caused by your failure to update the App.
-          </p>
-
-          <h2>4. User Accounts</h2>
-          <ul>
-            <li><strong>Anonymity:</strong> You may use the App anonymously. You are responsible for maintaining the physical security of your device.</li>
-            <li><strong>Account Linking:</strong> You may choose to link an email address for data recovery. You are responsible for maintaining the confidentiality of your credentials.</li>
-            <li><strong>Activity:</strong> You are fully responsible for all activities that occur under your account.</li>
-          </ul>
-
-          <h2>5. User Conduct</h2>
-          <p>You agree not to use the App to:</p>
-          <ul>
-            <li>Harass, abuse, stalk, threaten, or harm another person.</li>
-            <li>Use the status feature ("Available"/"Unavailable") to exert coercive control or manipulation over a partner.</li>
-            <li>Interfere with or disrupt the App's servers or networks.</li>
-            <li>Reverse engineer, decompile, or disassemble any aspect of the App (except where permitted by law).</li>
-          </ul>
-
-          <h2>6. Termination</h2>
-          <p>
-            We may terminate or suspend your access to the App immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms. Upon termination, your right to use the App will cease immediately.
-          </p>
-
-          <h2>7. Intellectual Property</h2>
-          <p>
-            The App and its original content, features, and functionality are and will remain the exclusive property of <strong>SoulMate Labs</strong>. 
-          </p>
-          <p>
-            <strong>Prohibited Acts:</strong> You may not modify, republish, or wrap the App in a third-party interface. Injecting malicious code or modifying the APK signature is strictly prohibited.
-          </p>
-
-          <h2>8. Disclaimer of Warranties ("AS IS")</h2>
-          <p className="uppercase">
-            THE APP IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-          </p>
-          <p className="uppercase">
-            WE DO NOT WARRANT THAT THE STATUS SHARED VIA THE APP WILL ALWAYS BE ACCURATE OR DELIVERED IN REAL-TIME. YOU ACCEPT THAT NETWORK LATENCY MAY CAUSE STATUS DELAYS.
-          </p>
-
-          <h2>9. Platform Disclaimer</h2>
-          <p>
-            You acknowledge that these Terms are concluded between you and SoulMate Labs only. Even if you install this App on an iOS or Android device, Apple Inc., Google LLC, and other device manufacturers are not parties to this agreement and are not responsible for the App or its support.
-          </p>
-
-          <h2>10. Indemnification</h2>
-          <p>
-            You agree to defend, indemnify, and hold harmless <strong>SoulMate Labs</strong>, its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including legal fees) arising out of or in any way connected with your access to or use of the App, or your violation of these Terms.
-          </p>
-
-          <h2>11. Limitation of Liability</h2>
-          <p className="uppercase">
-            TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL SOULMATE LABS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING:
+            The Services are intended solely for users who are eighteen (18)
+            years of age or older. By using the Services, you warrant and
+            represent that:
           </p>
           <ul>
-            <li><strong>RELATIONSHIP IMPACT:</strong> ARGUMENTS, BREAKUPS, OR EMOTIONAL DISTRESS ARISING FROM THE USE OR MISINTERPRETATION OF THE APP'S FEATURES.</li>
-            <li><strong>DATA LOSS:</strong> LOSS OF DATA, USE, OR GOODWILL.</li>
+            <li>You are at least 18 years old.</li>
+            <li>You have the legal capacity to enter into a binding contract.</li>
+            <li>
+              You are not barred from using the Services under the laws of your
+              jurisdiction.
+            </li>
           </ul>
           <p>
-            <strong>Local Laws (Savings Clause):</strong> Some jurisdictions (such as Germany or the UK) do not allow the exclusion of liability for death, personal injury, gross negligence, or willful misconduct. In such jurisdictions, our liability shall be limited to the minimum extent required by applicable law.
+            <strong>Zero Tolerance Policy:</strong> If we have reason to
+            believe an account belongs to a minor, we reserve the right to
+            terminate the account immediately without notice.
           </p>
-
-          <h2>12. Disclaimer Regarding Professional Advice</h2>
+          <h3>3. SoulMate Labs App Environment & Distribution</h3>
+          <h4>3.1 Scope of Services:</h4>
           <p>
-            Couplair is a communication tool, not a medical or therapeutic device. The App is not a substitute for professional diagnosis, treatment, or relationship counseling. You assume all risks associated with your relationship decisions.
+            SoulMate Labs provides tools for communication, journaling, social
+            organization, and matchmaking.
           </p>
-
-          <h2>13. Dispute Resolution and Class Action Waiver</h2>
+          <h4>3.2 Beta and Experimental Nature:</h4>
           <p>
-            <strong>For Users in the US/Canada:</strong> You agree that any dispute arising out of these Terms shall be resolved by binding arbitration. YOU AND SOULMATE LABS WAIVE THE RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE IN A CLASS ACTION LAWSUIT.
+            You acknowledge that several Services (including but not limited to
+            SoulSight, Up4it, and SoulMate) may be in "Beta" or "Early Access"
+            stages. These Services are experimental and may contain bugs,
+            experience downtime, or undergo significant feature changes
+            without notice. Use of Beta Services is at your own risk.
           </p>
+          <h4>3.3 Sideloading and Third-Party Distribution:</h4>
           <p>
-            <strong>For Users in the EU/EEA:</strong> The mandatory consumer protection laws of your country of residence apply. Disputes may be settled in the competent courts of your jurisdiction.
+            <strong>Assumption of Risk:</strong> You acknowledge that Apps may
+            be available via direct download (APK/Sideloading). Sideloading
+            bypasses standard store security protocols. You engage in
+            sideloading at your own exclusive risk.
           </p>
-
-          <h2>14. Severability</h2>
-          <p>
-            If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law, and the remaining provisions will continue in full force and effect.
-          </p>
-
-          <h2>15. Governing Law</h2>
-          <p>
-            These Terms shall be governed by the laws of <strong>Lima, Peru</strong>.
-          </p>
-
-          <h2>16. Contact Us</h2>
-          <p>If you have any questions about these Terms, please contact us at:</p>
           <ul>
-            <li><strong>Email:</strong> soulmatelabs+couplair@gmail.com</li>
+            <li>
+              <strong>Security & Updates:</strong> Sideloaded versions do not
+              receive automatic updates. It is your sole responsibility to
+              manually verify and install the latest versions.
+            </li>
+            <li>
+              <strong>Limited Liability:</strong> SoulMate Labs is not liable
+              for data breaches, malware, or bugs resulting from the use of
+              non-store versions or failure to update.
+            </li>
           </ul>
+          <h3>4. Specific App Features and Data Usage</h3>
+          <h4>4.1 AI-Enhanced Services (SoulSight/SoulMate):</h4>
+          <ul>
+            <li>
+              <strong>Transparency:</strong> You acknowledge that you are
+              interacting with Artificial Intelligence. AI-generated insights
+              are <strong>probabilistic</strong>, not deterministic, and do not
+              constitute psychological, medical, or legal advice.
+            </li>
+            <li>
+              <strong>Local Processing:</strong> SoulSight utilizes local AI
+              technologies. While we aim for local-only processing, we do not
+              warrant that hardware vulnerabilities or OS-level security
+              breaches will not result in data exposure.
+            </li>
+          </ul>
+          <h4>4.2 Data Portability and Integration (SoulMate):</h4>
+          <p>
+            If you choose to export data from SoulSight to create a profile in
+            SoulMate, you provide <strong>explicit consent</strong> for the AI
+            profiling of your sensitive personal data. SoulMate Labs is not
+            responsible for the accuracy of AI-driven "matches," algorithmic
+            bias, or the subjective quality of connections.
+          </p>
+          <h4>4.3 Social Interactions (Up4it/Couplair):</h4>
+          <p>
+            Up4it and Couplair facilitate social interactions and real-world
+            meetups.
+          </p>
+          <ul>
+            <li>
+              <strong>No Background Checks:</strong> SoulMate Labs does not
+              conduct criminal background checks or identity verification on
+              users.
+            </li>
+            <li>
+              <strong>User Vigilance:</strong> You are solely responsible for
+              your safety. We recommend meeting in public places and informing
+              third parties of your location. You assume all risks associated
+              with meeting individuals discovered through the Apps.
+            </li>
+          </ul>
+          <h3>5. User Accounts and Privacy</h3>
+          <ul>
+            <li>
+              <strong>Anonymity:</strong> We may allow for anonymous usage. In
+              such cases, your data is tied to your physical device. You are
+              responsible for the physical security of your device.
+            </li>
+            <li>
+              <strong>Account Credentials:</strong> You are responsible for
+              safeguarding any linked emails or recovery keys.
+            </li>
+            <li>
+              <strong>Account Responsibility:</strong> You are solely
+              responsible for all activity occurring under your account.
+            </li>
+          </ul>
+          <h3>6. Intellectual Property Rights</h3>
+          <h4>6.1 Ownership:</h4>
+          <p>
+            All intellectual property rights in the Services (including
+            software, AI models, UI/UX, and brands) are the exclusive property
+            of SoulMate Labs.
+          </p>
+          <h4>6.2 License:</h4>
+          <p>
+            We grant you a personal, non-exclusive, non-transferable,
+            revocable license for personal, non-commercial use.
+          </p>
+          <h4>6.3 Prohibitions:</h4>
+          <p>You shall not:</p>
+          <ul>
+            <li>
+              Modify, wrap, or create derivative works of the Apps.
+            </li>
+            <li>
+              Reverse engineer or attempt to extract source code or AI model
+              weights.
+            </li>
+            <li>
+              Use any "bot" or automated means to interact with the Services.
+            </li>
+          </ul>
+          <h3>7. User Conduct</h3>
+          <p>You agree not to use the Services to:</p>
+          <ul>
+            <li>Harass, stalk, or harm any user or partner.</li>
+            <li>
+              <strong>Coercive Control:</strong> Use status or location
+              features to exert emotional manipulation or coercive control.
+            </li>
+            <li>
+              <strong>System Manipulation:</strong> Manipulate AI systems to
+              generate prohibited, harmful, or biased content.
+            </li>
+          </ul>
+          <h3>8. Disclaimers ("AS IS")</h3>
+          <h4>8.1 No Warranties:</h4>
+          <p>
+            THE SERVICES ARE PROVIDED "AS IS." WE DISCLAIM ALL WARRANTIES,
+            EXPRESS OR IMPLIED.
+          </p>
+          <h4>8.2 Technical Accuracy:</h4>
+          <p>
+            We do not warrant that real-time features or AI insights will be
+            100% accurate.
+          </p>
+          <h4>8.3 Professional Advice:</h4>
+          <p>
+            <strong>The Apps are not therapeutic or medical devices.</strong>{" "}
+            They are not a substitute for professional counseling or mental
+            health treatment.
+          </p>
+          <h3>9. Limitation of Liability</h3>
+          <p>
+            TO THE MAXIMUM EXTENT PERMITTED BY LAW, SOULMATE LABS SHALL NOT BE
+            LIABLE FOR:
+          </p>
+          <ul>
+            <li>
+              <strong>Real-World Outcomes:</strong> Any emotional distress,
+              arguments, breakups, property damage, or physical harm arising
+              from the use of the Apps or meetups organized via Up4it/SoulMate.
+            </li>
+            <li>
+              <strong>AI Output:</strong> Any decisions made based on
+              AI-generated journaling insights or matchmaking suggestions.
+            </li>
+            <li>
+              <strong>Data Loss:</strong> Loss of data during manual exports or
+              device transfers.
+            </li>
+          </ul>
+          <p>
+            <strong>Savings Clause:</strong> Nothing in these Terms shall limit
+            or exclude SoulMate Labs' liability for death or personal injury
+            caused by its <strong>gross negligence</strong> or{" "}
+            <strong>willful misconduct</strong>, or any other liability which
+            cannot be excluded by law in your jurisdiction.
+          </p>
+          <h3>10. Termination</h3>
+          <p>
+            We reserve the right to terminate access to any or all Services at
+            our discretion, without notice, for conduct we believe violates
+            these Terms or is harmful to our community.
+          </p>
+          <h3>11. Dispute Resolution</h3>
+          <ul>
+            <li>
+              <strong>For US/Canada Users:</strong> Binding arbitration only.
+              You waive your right to a jury trial or class-action
+              participation.
+            </li>
+            <li>
+              <strong>For EU/EEA Users:</strong> Mandatory consumer protections
+              apply.
+            </li>
+            <li>
+              <strong>Governing Law:</strong> These Terms are governed by the
+              laws of <strong>Lima, Peru</strong>.
+            </li>
+          </ul>
+          <h3>12. Miscellaneous</h3>
+          <ul>
+            <li>
+              <strong>Severability:</strong> If any part of these Terms is
+              unenforceable, the remainder remains in effect.
+            </li>
+            <li>
+              <strong>Platform Neutrality:</strong> Apple and Google are not
+              parties to this agreement.
+            </li>
+          </ul>
+          <h3>13. Contact Information</h3>
+          <p>
+            <strong>Entity:</strong> SoulMate Labs
+          </p>
+          <p>
+            <strong>Legal Email:</strong> soulmatelabs+legal@gmail.com
+          </p>
+          <p>
+            <strong>General Support:</strong> soulmatelabs@gmail.com
+          </p>
         </div>
       </div>
     </div>
